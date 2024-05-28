@@ -23,13 +23,15 @@ print(type(d))  #<class 'str'>
 e = 3 + 2j
 print(type(e))  #<class 'complex'>
 
-#--------
+#---------------------------------------------
+#taking integers from user and adding them
 a = int (input("Enter first number"))   #int - changing the initial string data into int
 b= int (input("Enter second number"))
 
 sum = a+b
 print("Sum:",sum)
-#------------
+
+#taking floating value from user and multiplying them
 
 c = float(input("Enter first floating number:"))
 d = float(input("Enter second floating number:"))
